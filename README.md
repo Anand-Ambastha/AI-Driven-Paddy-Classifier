@@ -53,7 +53,7 @@ The repository includes several important diagnostic plots stored in the `Graphs
 ### Confusion Matrix
 
 Shows classification performance across low, medium, and high stress classes.
-![Confusion Matrix](Graphs/Confusion Matrix.png)
+![Confusion_Matrix](Graphs/Confusion_Matrix.png)
 
 ### Stress Heatmap
 
@@ -63,17 +63,17 @@ Highlights distribution of predicted vs. true labels under the LOLO split.
 ### Calibration Curve
 
 Evaluates probability calibration and overconfidence tendencies.
-![Calibration Curve](Graphs/Calibration_Curve.png)
+![Calibration_Curve](Graphs/Calibration_Curve.png)
 
 ### Training & Validation Curves
 
 Displays model convergence and generalization behavior.
-![Training Validation](Graphs/training_validation.png)
+![Training_Validation](Graphs/training_validation.png)
 
 ### BiLSTM Attention Map (Post-hoc)
 
 Indicates which hours inside the 48-hour window contributed most to the decision.
-![Attention Model](Graphs/bilstm_attention_model.png)
+![Attention_Model](Graphs/bilstm_attention_model.png)
 
 ---
 
@@ -263,4 +263,5 @@ Special thanks to the CMU 11-785 TAs for helping clarify doubts even though they
 * Soil-moisture integration via hydrological models or satellites
 * Multi-modal fusion (NDVI, canopy temperature)
 * Field-level validation studies
+
 
