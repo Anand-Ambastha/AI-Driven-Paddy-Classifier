@@ -1,0 +1,13 @@
+[project]
+name = "AgroMet-AI"
+version = "0.1.0"
+description = "full pipeline for classifying short-term paddy microclimate stress using hybrid physiologically informed labels and a hierarchical BiLSTM-LSTM sequence model. The system processes 48-hour weather sequences from six diverse Indian agroclimatic zones and evaluates geographic robustness through a strict Leave-One-Location-Out (LOLO) protocol."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "torch>=2.9.0",
+]
