@@ -251,6 +251,10 @@ python lstm_training_with_norm.py
 Outputs are saved to `/model/`, `/Graphs/`, and `/Output/`.
 
 ---
+### Author
+
+Anand Ambastha
+[LinkedIn](https://www.linkedin.com/in/anand-kumar05)
 
 ## Special Thanks
 
