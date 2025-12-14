@@ -2,6 +2,8 @@
 
 **Hybrid Agronomic Labels + Deep Sequential Modeling (2023–2024)**
 
+[Project Report (PDF)](Project_Report.pdf)
+
 This repository contains the full pipeline for classifying short-term paddy microclimate stress using hybrid physiologically informed labels and a hierarchical BiLSTM-LSTM sequence model. The system processes 48-hour weather sequences from six diverse Indian agroclimatic zones and evaluates geographic robustness through a strict Leave-One-Location-Out (LOLO) protocol.
 
 ---
